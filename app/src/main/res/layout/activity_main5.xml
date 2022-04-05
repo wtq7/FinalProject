@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAA5E8"
+    android:orientation="vertical"
+    tools:context=".MainActivity5">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="الجمرة الخبيثة"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="الجمرة الخبيثة مرض تسببه جرثومة تسمى العَصَوِيَّة الجَمْرِيَّة. وقد كانت موجودة منذ مئات السنين، ومازالت تحدث بشكل طبيعي في كل من الحيوانات والبشر في أجزاء كثيرة من العالم؛ بما في ذلك آسيا، وجنوب أوروبا، وأفريقيا شبه الساحلية، وأجزاء من أستراليا. يمكن لجرثومة الجمرة الخبيثة البقاء على قيد الحياة في البيئة عن طريق تشكيل الأبواغ. وإنها - في شكلها الطبيعي الأكثر شيوعاً - تُحدِث قروحاً داكنة على الجلد، تستمد منها اسمها.
+عادةً ما يَكتسب البشرالمرض من الحيوانات المصابة بالعدوى - بصورة مباشرة أوغير مباشرة - أو من خلال التعرض المهني للمنتجات الحيوانية المصابة بالعدوى أو الملوثة، وبالتالي فإن مكافحة الماشية هي المفتاح إلى تخفيض الوقوع. ويعتبرهذا المرض – عادة - غيرمُعدٍ، مع وجود سجلات لانتشارٍ من شخص إلى شخص، لكنها نادرة.
+إن مكافحة الجمرة الخبيثة بين البشر تعتمد على التكامل بين الترصد الصحي – البيطري والبشري - وبرامج المكافحة؛ فيجب أن يكون الإخطار الروتيني المتبادَل بين نُظُم الترصد الصحي– البيطري والبشري - جزءاً من أي برنامج للوقاية من الأمراض حيوانية المصدر ومكافحتها، وإن التعاون الوثيق بين القطاعين الصحيين ذو أهمية خاصة أثناء الاستقصاءات الوبائية والفاشية."
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/download31" />
+</LinearLayout>

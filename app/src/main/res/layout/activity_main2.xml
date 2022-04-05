@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="السكر"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="هو مرض مزمن، يحدث عندما تعجز البنكرياس عن إنتاج كمية كافية من الإنسولينن، أو عندما يعجز الجسم عن استخدام الإنسولين - الذي تنتجه - بشكل فعال. وهذا يؤدي إلى زيادة تركيز الغلوكوز في الدم (فرط سكر الدم). يتميز السكري نمط 1 (المعروف سابقاً باسم السكري المعتمد على الإنسولين أو السكري الذي يظهر في مرحلة الطفولة) بقلة إنتاج الإنسولين. ويَنتج السكري نمط 2 (الذي كان يسمى سابقاً السكري غير المعتمد على الإنسولين أو السكري الذي يصيب البالغين) عن عدم فعالية استخدام الجسم للإنسولين. وهو ينتج ـ غالباً ـ عن فرط وزن الجسم والخمول البدني. السكري واسع الانتشار بين كلا الجنسين في الدول الأعضاء في إقليم شرق المتوسط بمنظمة الصحة العالمية. ويتراوح انتشاره في هذه البلدان من 3,5% إلى 30%. وإن ستة من البلدان العشرة ذات الانتشار الأعلى للسكري في العالم هي من الإقليم: البحرين والكويت ولبنان وعُمان والمملكة العربية السعودية والإمارات العربية المتحدة. وبحلول عام 2025، من المتوقع أن يكون عدد الأشخاص المصابين بالسكري أكثر من الضعف في أقاليم أفريقيا وشرق المتوسط وجنوب شرق أسيا بمنظمة الصحة العالمية. وعلاوة على ذلك فإن العديد من البلدان في الإقليم تُبْلغ حالياً عن ظهور السكري نمط 2 في سن الشباب على نحو متزايد. ويرجع ذلك إلى أنماط الحياة قليلة النشاط على نحو متزايد، وإلى ارتفاع مأمول الحياة، والسمنة. كما أن ارتفاع ضغط الدم والأمراض القلبية الوعائية في تزايد."
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/download32"
+        android:scaleType="fitXY"
+        android:layout_marginTop="15dp"/>
+</LinearLayout>

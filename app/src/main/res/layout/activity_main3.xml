@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E88795"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="حصوات الكلى"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="حصوات الكلى (وتسمى أيضًا الحصيات الكُلوية أو تحصي الكُلى أو التحصي البولي) هي ترسبات صلبة مكونة من المعادن والأملاح التي تتشكل داخل الكُلى.
+ومن أسباب تكون حصوات الكُلى النظام الغذائي وزيادة وزن الجسم وبعض الحالات الطبية وبعض المكمّلات الغذائية والأدوية. يمكن أن تصيب حصوات الكُلى أي جزء من المسالك البولية؛ من كليتيك إلى المثانة. تتكون الحصوات في أغلب الأحوال عندما يصبح البول مركزًا، ما يتيح للمعادن التبلور والالتصاق ببعضها.
+يمكن أن يكون خروج حصوات الكُلى مؤلمًا للغاية، لكن الحصوات لا تسبب في العادة ضررًا دائمًا إذا اكتُشفت في الوقت المناسب. وبناءً على لحالتك، قد لا تحتاج لإخراج حصوات الكلى إلى أكثر من تناول مسكن للألم وشرب الكثير من الماء. لكن في حالات أخرى - إذا استقرت الحصوات في مجرى البول أو اقترنت بحدوث عدوى في الجهاز البولي أو تسببت في حدوث مضاعفات على سبيل المثال - قد يلزم إجراء جراحة."
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/kidneyimage"
+        />
+</LinearLayout>

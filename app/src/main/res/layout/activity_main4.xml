@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2F1AB"
+    android:orientation="vertical"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="الاكتئاب"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="إن الاكتئاب من بين الأسباب الـ 10 الرئيسية لسنوات العمر المفقودة ـ المعدلة بحسب العجز ـ عالمياً وإقليمياً، ومن المتوقع أن يكون من بين الأسباب الثلاثة الأولى لسنوات العمر المفقودة ـ المعدلة بحسب العجز ـ بحلول عام 2030. ويتميز الاكتئاب بانخفاض الطاقة، والحزن، وفقد الاهتمام أو اللذة، والشعور بالذنب أو بانخفاض قيمة الذات، واضطراب النوم والشهية، وضعف التركيز. والاكتئاب أحد عوامل الاختطار الهامة للانتحار، والتي تصيب ـ بشكل خاص ـ المراهقين والنساء خلال سن الإنجاب. وإن الأشخاص الذين يعانون من حالات مزمنة ـ بما في ذلك الأمراضُ غير السارية والعجزُ ـ هم أكثر عرضة للإصابة بالاكتئاب مقارنة مع عامة السكان، ويحتمل أن يكون لديهم نتائج أسوأ بشأن حالاتهم الأولية. وفي ضوء هذه الموجودات فإن الاكتئاب واحد من الحالات ذات الأولوية التي تم تحديدها للإدراج ضمن حزمة خدمات الصحة النفسية من أجل الدمج في الرعاية الصحية العامة في الإستراتيجية الإقليمية للصحة النفسية وفي مبادرة منظمة الصحة العالمية لبرنامج عمل فجوة الصحة النفسية."
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/download" />
+</LinearLayout>
